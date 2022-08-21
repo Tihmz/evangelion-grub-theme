@@ -1,0 +1,40 @@
+# Global properties
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-box: "terminal_box_*.png"
+terminal-font: "Terminus Regular 14"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Boot menu
++ boot_menu {
+  left = 18%
+  top = 20%
+  width = 64%
+  height = 60%
+  item_font = "Helvetica Neue Medium Extended Regular 32"
+  item_color = "#d0750a"
+  selected_item_color = "#000000"
+  item_height = 48
+  item_spacing = 8
+  item_icon_space = 12
+  item_pixmap_style = "item_*.png"
+  selected_item_pixmap_style = "selected_item_*.png"
+}
+
+# Countdown message
++ label {
+  left = 20%
+  top = 98%-70
+  width = 100%
+  align = "center"
+  id = "__timeout__"
+  # EN
+  text = "00:00:0%d"
+  color = "#DD6303"
+  font = "Digital-7 Regular 70"
+}
