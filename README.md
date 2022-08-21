@@ -1,6 +1,6 @@
 # Evangelion inspired GRUB theme
 
-![](demo.gif)
+![](screenshot.jpg)
 
 ### how to install
 
@@ -26,5 +26,7 @@ sudo rm -rf /boot/grub/themes/evangelion-grub-theme
 sudo sed -i '/^GRUB_THEME/d' /etc/default/grub
 sudo update-grub
 ```
+
+![](demo.gif)
 
 Inspired by the following theme : https://github.com/shvchk/fallout-grub-theme
