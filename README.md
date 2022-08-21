@@ -27,4 +27,4 @@ sudo sed -i '/^GRUB_THEME/d' /etc/default/grub
 sudo update-grub
 ```
 
-
+Inspired by the following theme : https://github.com/shvchk/fallout-grub-theme
